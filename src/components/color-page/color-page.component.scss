@@ -1,0 +1,15 @@
+.color-div{
+    display: flex;
+    justify-content: center;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    align-items: center;
+    & button{
+        height: 300px;
+        width: 500px;
+    }
+}

@@ -1,0 +1,7 @@
+<div class="color-div">
+    <input type="color" [(ngModel)]="buttonBgColor" >
+</div>
+
+<div class="button-div">
+    <button [ngStyle]="{'background-color': buttonBgColor}">Bg Change</button>
+</div>
